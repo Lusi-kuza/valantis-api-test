@@ -1,0 +1,15 @@
+.list {
+  overflow-y: auto;
+  height: 80vh;
+  scrollbar-color: var(--accent-color) var(--primary-color);
+  scrollbar-width: thin;
+}
+
+.list::-webkit-scrollbar-track {
+  border-radius: 45px;
+}
+
+.item {
+  list-style: none;
+  margin: 20px;
+}
